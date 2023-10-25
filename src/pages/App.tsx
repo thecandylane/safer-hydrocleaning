@@ -22,7 +22,7 @@ function App() {
         <p>
         "Safer Powerwashing isn't just our name, it's our promise. With a fusion of seasoned expertise and eco-friendly techniques, 
         we rejuvenate surfaces while safeguarding the environment. Our commitment goes beyond the shine; it's about providing a cleaner, 
-        safer, and brighter community for everyone. Dive deeper into our story and discover why Safer Powerwashing has become the trusted 
+        Safer, and brighter community for everyone. Dive deeper into our story and discover why Safer Powerwashing has become the trusted 
         choice for transformative cleaning in Baton Rouge."
         </p>
       </section>
