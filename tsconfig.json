@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
@@ -21,6 +21,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src/pages"
+    "src/**/*",
+    "src/pages",
+    "src/images",
+    "src/components"
+    
   ]
 }

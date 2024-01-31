@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import PowerWasher from '../components/PowerWasher'
+import imageOne from '../images/house1b4.jpg'
+import imageTwo from '../images/house1nice.jpg'
+
 
 function App() {
   return (
@@ -25,6 +29,8 @@ function App() {
         Safer, and brighter community for everyone. Dive deeper into our story and discover why Safer Powerwashing has become the trusted 
         choice for transformative cleaning in Baton Rouge."
         </p>
+        <img src={'/snickles.jpg'} alt="Test" />
+
       </section>
 
       <section id="services" className="p-8 bg-white rounded-lg shadow-md my-8 mx-4">
@@ -44,6 +50,12 @@ function App() {
           how clean it looked afterwards." - Satisfied Customer
         </blockquote>
         {/* Add more testimonials here */}
+      </section>
+
+      <section id='gallery' className='p-8 bg-white rounded-lg shadow-md my-8 mx-4'>
+        <h2>Gallery</h2>
+        <PowerWasher imageBefore={imageTwo} imageAfter={imageOne}></PowerWasher>
+        
       </section>
 
       <section id="contact" className="p-8 bg-white rounded-lg shadow-md my-8 mx-4">
